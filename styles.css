@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh; width: 100vw; overflow-x: hidden; scroll-behavior: smooth;
+}
+
+.main{
+    height: 100%;width: 100%;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); position: relative;
+}
+
+.open1{
+    height: 100%; width: 100%; background-color: black; position: fixed;
+    top: 0; left: 0; z-index: 1;
+}
+
+.open1_txt{
+    color: white; position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); font-size: 100px; font-family: raleway; opacity: 1;
+
+}
+
+.page1{
+    height: 100%; width: 100%; position: relative;
+}
+
+.nav{
+    display: flex; align-items: center; justify-content:space-around;
+    color: white; height: 8%;
+    font-family: raleway; 
+    /* background-color: #312f2f; */
+}
+
+.nav_left{
+    height: 100%; width: 40%; display: flex; align-items: center; justify-content: start; padding: 15px;
+}
+
+.nav_left h2{
+    font-weight: 500; font-size: 90%; padding-right: 15px;
+}
+
+.nav_left h2 a{
+    text-decoration: none; color: white;
+}
+
+.nav_left h2 a:hover{
+    border-bottom: 2px solid white;
+}
+
+.nav_mid{
+    height: 100%; width: 20%; font-weight: 100; display: flex; align-items: center; justify-content: center;
+}
+
+.nav_mid h2{
+    font-weight: 500; font-size: 140%;
+}
+
+.nav_mid h2 a{
+    text-decoration: none; color: white;
+}
+
+.nav_right{
+    height: 100%; width: 40%; font-weight: 100; display: flex; align-items: center; justify-content: end; padding: 15px;
+}
+
+.nav_right h2{
+    font-weight: 500; font-size: 90%; padding-left: 15px;
+}
+
+.nav_right h2 a{
+    text-decoration: none; color: white;
+}
+
+.nav_right h2 a:hover{
+    border-bottom: 2px solid white;
+}
+
+.main_txt{
+    position: absolute;
+    font-family: raleway; color: white;
+    top: 42%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.main_txt2{
+    position: absolute;
+    font-family: raleway; color: white;
+    top: 53%;
+    left: 39%;
+    transform: translate(-14%, -50%);
+    font-size: 100px;
+}
+
+.ri-scroll-to-bottom-line{
+    position: absolute; color: white; 
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+
+.page2{
+    height: 100%; width: 100%; 
+    background-color: rgb(11, 11, 11);
+    position: relative;
+}
+
+
+
+.page2 h1{
+    font-family: raleway; color: white; font-weight: 500; font-size: 140%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.devicon-html5-plain-wordmark{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    font-size: 70px;
+    opacity: 0.5;
+}
+
+.devicon-css3-plain-wordmark{
+    position: absolute;
+    top: 41%;
+    left: 33%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.devicon-cplusplus-plain{
+    position: absolute;
+    top: 70%;
+    left: 72%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.devicon-java-plain-wordmark{
+    position: absolute;
+    top: 20%;
+    left: 81%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.devicon-javascript-plain{
+    position: absolute;
+    top: 74%;
+    left: 16%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.devicon-react-original-wordmark{
+    position: absolute;
+    top: 41%;
+    left: 70%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.devicon-azuresqldatabase-plain{
+    position: absolute;
+    top: 58%;
+    left: 46%;
+    font-size: 70px;
+    opacity: 0.5
+}
+
+.about{
+    height: 53%; width: 53%; 
+    padding: 2%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;align-items: center;justify-content: center; color: white; background-color: rgb(50, 50, 50); opacity: .6; border-radius: 25px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.about_img{
+    height: 27%; width: 11%; border-radius: 25px;
+    position: absolute;
+    top: 50%; left: 24%;
+    transform: translate(-50%, -50%);
+    background-image: url(mine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 14px rgb(0, 0, 0) ;
+
+}
+
+
+
+.page2 h2{
+    position: absolute;
+    width: 40%;
+    top: 50%; left: 53%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: raleway; font-weight: 600; font-size: 100%; letter-spacing: 3px;
+
+}
+
+.page2 h2 span{
+    color: yellow;
+    font-weight: 900;
+}
+
+
+.page3{
+    height: 100%; width: 100%; 
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    position: relative;
+}
+
+.page3 h1{
+    font-family: raleway; color: white; font-weight: 500; font-size: 140%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.projects{
+    height: 90%; width: 50%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1%; padding: 1%;
+}
+
+.pr1{
+    height: 50%; width: 90%; border-radius: 25px;
+    background-image: url(pr1_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 14px rgb(0, 0, 0) ;
+}
+
+/* .pr1 h3{
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: raleway; font-weight: 600; font-size: 140%;
+    color: white;
+    text-shadow: 0 5px 4px black;
+} */
+
+.pr1 button{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #0a6bff; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    background-color: #0a6bff; 
+    color: white; padding: 6px 15px;
+    cursor: pointer; 
+    
+}
+
+.pr1 button:hover{
+    top:89%;
+}
+
+.pr2{
+    height: 40%; width: 45%; background-color: rgb(134, 165, 110); border-radius: 25px;
+    background-image: url(pr2_img.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 14px rgb(0, 0, 0) ;
+}
+
+
+
+/* .pr2 h3{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: raleway; font-weight: 600; font-size: 140%;
+    color: #4F75FF;
+    text-shadow: 0 0 2px black;
+    
+    
+} */
+
+.pr2 button{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #0a6bff; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    background-color: #0a6bff;  
+    color: white; padding: 6px 15px;
+    cursor: pointer; 
+    
+}
+
+.pr2 button:hover{
+    top:84%;
+}
+
+.pr3{
+    height: 40%; width: 45%; background-color: rgb(134, 165, 110); border-radius: 25px;
+    background-image: url(pr3_img.png);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 0 14px rgb(0, 0, 0) ;
+}
+
+.pr3 button{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #0a6bff; 
+    border-radius: 5px;
+    box-shadow: 0 4px 6px black;
+    background-color: #0a6bff;  
+    color: white; padding: 6px 15px;
+    cursor: pointer;
+   
+}
+
+.pr3 button:hover{
+    top:84%;
+}
